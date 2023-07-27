@@ -30,7 +30,6 @@ export default {
     this.chartOptions.title.text = this.chartTitle;
     this.chartOptions.chart.type = this.type;
     this.chartOptions.series[0]["data"] = this.chartData;
-    console.log("data", this.chartData);
   },
 
   mounted() {
